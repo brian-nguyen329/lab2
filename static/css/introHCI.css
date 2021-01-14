@@ -10,11 +10,11 @@
 }
 
 /* basic element type p */
-/*
+
 p {
      font-variant: small-caps;
  }
-*/
+
 
  /* descendants */
  /* .project p {
@@ -41,7 +41,7 @@ body {
 
 .jumbotron:after {
      content:"";
-     /*background: url("http://lorempixel.com/1140/283");*/
+     background: url("http://lorempixel.com/1140/283");
      opacity: 0.2;
      top: 0;
      left: 0;
