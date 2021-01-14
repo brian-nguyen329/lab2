@@ -9,6 +9,24 @@
 	color: #CC00AA;
 }
 
+/* basic element type p */
+/*
+p {
+     font-variant: small-caps;
+ }
+*/
+
+ /* descendants */
+ /* .project p {
+     font-variant: small-caps;
+ } */
+
+ /* ids */
+ /* #project1 {
+     font-variant: small-caps;
+ } */
+
+
 /* this style exists to make it obvious that you've successfully linked
    the CSS to the page. feel free to remove it once the link is working. */
 body {
@@ -23,7 +41,7 @@ body {
 
 .jumbotron:after {
      content:"";
-     background: url("http://lorempixel.com/1140/283");
+     /*background: url("http://lorempixel.com/1140/283");*/
      opacity: 0.2;
      top: 0;
      left: 0;
@@ -32,3 +50,12 @@ body {
      position: absolute;
      z-index: -1;	
 }
+
+/* Supposed to be deleted, but commented out so I know what I've done */ 
+/* 
+.project {
+    margin-left: 20px;
+    background-color: #deebf7;
+    padding: 20px;
+    width: 525px;
+} */
